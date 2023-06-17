@@ -1,4 +1,61 @@
 ---
-layout: home
-author_profile: true
+title: "Tanagra Space"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/img/splash.jpg
+excerpt: "Launching artificial intelligence into orbit.<br><br>"
+
+intro:
+  - excerpt: 'Pioneering **Space Platform as-a-Service (SPaaS)** with satellite edge computing for onboard machine learning in autonomous flight operations.<br><br>*Bringing neural networks into space!*'
+
+feature_row:
+  - image_path: /assets/img/usgs-04b.jpg
+    title: "🤖 Onboard Autonomy"
+    excerpt: "Enable autonomous spacecraft operations.<br><br>Unclogging ground-segment data-processing funnels with automated planning, scheduling, and control mechanisms."
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
+  - image_path: /assets/img/usgs-06b.jpg
+    title: "🔎 Novelty Detection"
+    excerpt: "Identify and highlight features of interest.<br><br>Filtering through large datasets of remote sensing in earth observation and planetary exploration."
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--secondar"
+  - image_path: /assets/img/usgs-07b.jpg
+    title: "🛰️ In-Orbit ML"
+    excerpt: "Satellite APIs for in-flight machine learning.<br><br>Leveraging edge computing and demystifying AI by making it accessible to spacecraft operators and experimenters."
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
+
+
+<div>
+  <div align="center">
+    <h2 class="archive__item-title">Work With Us</h2>
+  </div>
+
+  <form
+    action="https://formspree.io/f/mrgodzqw"
+    method="POST"
+  >
+    <div class="form-group">
+      <label for="contactEmail">Your email:</label>
+      <input type="email" name="email" id="contactEmail" />
+    </div>
+    <div class="form-group">
+      <label for="contactMessage">Your message:</label>
+      <textarea name="message" id="contactMessage" class="form-control" rows="5"></textarea>
+    </div>
+    <div align="center">
+      <button type="submit" class="btn btn--primary">Send</button>
+    </div>
+  </form>
+</div>
+
+<hr>
